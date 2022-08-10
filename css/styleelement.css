@@ -1,0 +1,59 @@
+/* Start Main Rules */
+*
+{
+    box-sizing: border-box;
+    
+}
+body 
+{
+    font-family: 'Raleway', sans-serif;
+    height: 2000px;
+
+}
+.container { width: 1100px; margin: 0 auto }
+/* End Main Rules */
+/* Start My Framwork */
+h1,h2,h3 { margin: 0px ; padding: 0px; }
+p {margin: 0px}
+/* End My Framwork */
+/* Start Header */
+.navbar
+{
+    height: 80px;
+    position: fixed;
+    background-color: #FFF;
+    width: 100%;
+    text-transform: uppercase;
+    box-shadow: 0px 1px 2px #b5b5b5;
+}
+.navbar h3
+{
+    font-weight: bolder;
+    float: left;
+    overflow: hidden;
+    font-weight: 100;
+    padding: 30px 40px;
+    color: #484848;
+}
+.navbar h3 bold
+{
+    font-weight: bold
+}
+.navbar ul
+{
+    list-style: none;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    left: 990px;
+    float: right;
+    padding: 30px;
+    margin: 0px;
+}
+.navbar ul a
+{
+    text-decoration: none;
+    color: #aaa;
+    padding: 15px;
+}
+/* End Header */

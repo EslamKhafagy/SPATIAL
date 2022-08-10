@@ -1,0 +1,116 @@
+/* Start Main Rules */
+*
+{
+    box-sizing: border-box;
+    
+}
+body 
+{
+    font-family: 'Raleway', sans-serif;
+
+}
+.container { width: 1100px; margin: 0 auto }
+/* End Main Rules */
+/* Start My Framwork */
+h1,h2,h3 { margin: 0px ; padding: 0px; }
+p {margin: 0px}
+/* End My Framwork */
+/* Start Header */
+.navbar
+{
+    height: 80px;
+    background-color: #FFF;
+    overflow: hidden;
+    width: 100%;
+    text-transform: uppercase;
+    box-shadow: 0px 1px 2px #b5b5b5;
+    position: fixed;
+    z-index: 10001;
+    display: block
+}
+.navbar h3
+{
+    font-weight: bolder;
+    float: left;
+    overflow: hidden;
+    font-weight: 100;
+    padding: 30px 40px;
+    color: #484848;
+}
+.navbar h3 bold
+{
+    font-weight: bold
+}
+.navbar ul
+{
+    list-style: none;
+    overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    left: 990px;
+    float: right;
+    padding: 30px;
+    margin: 0px;
+}
+.navbar ul a
+{
+    text-decoration: none;
+    color: #aaa;
+    padding: 15px;
+}
+/* End Header */
+/* Start Content */
+.content
+{
+    overflow: hidden;
+    padding: 120px 0 30px 0 ;
+}
+.content h1
+{
+    font-size: 45px;
+    font-weight: bold;
+    color: #484848;
+    padding: 20px 0;
+}
+.content h2
+{
+    padding: 0 0 100px 0;
+    color: #AAAAAA;
+    font-weight: 100;
+}
+.content img {width: 100%;border-radius: 5px;margin: 0 0 40px 0;}
+.content p
+{
+    color: #666666;
+    margin:  0 0 40px 0;
+    line-height: 1.5;
+}
+/* End Content */
+/* Start Footer */
+.footer
+{
+    background-color: #F6F6F6;
+    text-align: center;
+    height: 300px;
+}
+.footer p
+{
+    padding: 10px 0 0 0;
+    color: #AAAAAA
+}
+.footer p a
+{
+    text-decoration: none;
+    color: #AAAAAA
+}
+.footer ul {padding: 100px 0 0 0}
+.footer ul a
+{
+    text-decoration: none;
+    color: #AAAAAA;
+    font-size: 40px;
+    padding: 0px 30px
+}
+.footer a:hover{color:#666}
+
+/* End Footer */
